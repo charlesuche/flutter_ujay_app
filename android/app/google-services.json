@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "615226928064",
+    "project_id": "unijos-27cf4",
+    "storage_bucket": "unijos-27cf4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:615226928064:android:60abf16e2445922dc17625",
+        "android_client_info": {
+          "package_name": "com.example.ujay_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "615226928064-o502k5739n7mkaadiefv4jf40ur1j9bq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDETtD1NsqfahxFKdDXwBKXhopbrA0e9FY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "615226928064-o502k5739n7mkaadiefv4jf40ur1j9bq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
