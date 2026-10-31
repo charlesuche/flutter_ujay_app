@@ -36,7 +36,7 @@ class _HomePageState extends State<HomePage> {
     } else {
       tempSearchPlace = [];
       queryResultSet.forEach((element) {
-        if (element['name'].startWith(capitalizedValue)) {
+        if (element['name'].startsWith(capitalizedValue)) {
           setState(() {
             tempSearchPlace.add(element);
           });

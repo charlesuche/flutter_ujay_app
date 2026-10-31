@@ -7,6 +7,7 @@ import 'package:location/location.dart';
 import 'package:intl/intl.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:ujay_app/app/controllers/searchServices.dart';
+import 'package:ujay_app/app/constants/secrets.dart';
 
 class MyLocation extends StatefulWidget {
   @override
@@ -340,7 +341,7 @@ class _MyLocationState extends State<MyLocation> {
     });
 
     PolylineResult result = await polylinePoints.getRouteBetweenCoordinates(
-      "AIzaSyCxZ3jXf61IUjFH-h876XFf5UgDQ9K9pKU",
+      googleMapsApiKey,
       PointLatLng(_currentPosition.latitude!, _currentPosition.longitude!),
       PointLatLng(destinationLocation.latitude, destinationLocation.longitude),
       travelMode: TravelMode.driving,
